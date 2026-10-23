@@ -1,0 +1,11 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.vercel/
+.openai/
+*.tar.gz
+
+# Datos del mapa y HTML que los contiene
+dist/data.json
+dist/index.html

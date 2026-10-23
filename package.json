@@ -1,0 +1,1 @@
+{"name":"orbita-universo-profesional","private":true,"version":"1.0.0","scripts":{"build":"node build.mjs","test":"node --check app.js && node check-data.cjs && node check-update.cjs"}}

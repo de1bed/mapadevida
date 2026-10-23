@@ -2,6 +2,12 @@
 
 Mapa interactivo de empresas, proyectos, personas, relaciones, planes, prompts y mapas de calor. Incluye creación de etiquetas propias y conexiones en borrador con guardar/descartar.
 
+## Datos del mapa
+
+Esta copia pública incluye el código fuente. Se omitieron `dist/data.json` y `dist/index.html` porque contienen los datos completos del mapa profesional. Sin el JSON no se puede generar ni ejecutar el sitio completo.
+
+Para trabajar localmente, crea la carpeta `dist` y guarda allí tu exportación JSON del mapa como `dist/data.json`. Ambos archivos están excluidos de Git para evitar publicarlos por accidente. Para alojar el mapa completo, utiliza almacenamiento con el acceso adecuado.
+
 ## Ejecutar
 
 Requiere Node.js. No necesita dependencias externas.
